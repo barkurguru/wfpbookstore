@@ -1,0 +1,7 @@
+package  com.wfp.bookstore.entity;
+
+public enum ERole {
+  ROLE_USER,
+  ROLE_MODERATOR,
+  ROLE_ADMIN
+}
