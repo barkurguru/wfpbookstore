@@ -7,7 +7,7 @@ Bookstore Springboot backend API with JWT authentication
 
   a)**mvn clean install**   --> to build project
   
-  b)**mvn spring-boot:run ** -->to run the project on 8080 port no.
+  b) **mvn spring-boot:run** -->to run the project on 8080 port no.
   
 3)Once successfully run, you can able to open  swagger, link: http://localhost:8080/swagger-ui/index.html
 
