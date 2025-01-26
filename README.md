@@ -3,7 +3,7 @@ Bookstore Springboot backend API with JWT authentication
 
 1)Checkout main branch of wfpbookstore from here and configure to any IDE workspace.
 
-2)from the project folder execute command
+2)From the project folder execute command
 
   a)**mvn clean install**   --> to build project
   
@@ -34,6 +34,7 @@ also  you can make postman to create resources
 7)We can checking books, by using get end point ( JWT token to be passed to headers)
 
 a)To get all books http://localhost:8080/api/books
+
 b)to get only 1 book using http://localhost:8080/api/books/1
 
 ![List All Books](https://github.com/user-attachments/assets/265765d3-e62b-4772-aee3-86b23134375b)
@@ -41,8 +42,10 @@ b)to get only 1 book using http://localhost:8080/api/books/1
 8)Update or Delete books similary ( JWT token to be passed to headers)
 
 a)http://localhost:8080/api/books/update/1
-b)http://localhost:8080/api/books/delete/1
+
 ![Books_updation](https://github.com/user-attachments/assets/da5780df-f4fd-4302-b458-33fa4167b262)
+
+b)http://localhost:8080/api/books/delete/1
 ![Delete book by id](https://github.com/user-attachments/assets/c3a43901-6e4b-478d-bbb1-d2a36c21dfee)
 
 
