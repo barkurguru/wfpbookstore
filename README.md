@@ -8,19 +8,25 @@ Bookstore Springboot backend API with JWT authentication
   b)mvn spring-boot:run  -->to run the project on 8080 port no.
   
 3)Once successfully run, you can able to open  swagger, link: http://localhost:8080/swagger-ui/index.html
+
 ![image](https://github.com/user-attachments/assets/58d258c6-8f5f-4555-997b-f60cca4c1b1c)
-![Swagger_integration](https://github.com/user-attachments/assets/3c9f25bc-2120-43e5-9a7b-94fe104a8280)
+
 
 OR
 also  you can make postman to create resources
 
 4)There are 3 Roles :user, moderator, admin. To create bookstore need to pass ADMIN role while admin user creation using this end point:http://localhost:8080/api/auth/signup.
-  ![user_registration](https://github.com/user-attachments/assets/d0dcdd2a-22ee-4776-8659-4f9ae321dae6)
 
-5)Once user created, generate JWT token using this end point http://localhost:8080/api/auth/signin.
+  ![user_registration](https://github.com/user-attachments/assets/d0dcdd2a-22ee-4776-8659-4f9ae321dae6)
+  ![Swagger_integration](https://github.com/user-attachments/assets/3c9f25bc-2120-43e5-9a7b-94fe104a8280)
+
+
+5)Once user created, generate JWT token using this end point http://localhost:8080/api/auth/signin
+
 ![user_login_token_genration](https://github.com/user-attachments/assets/e884e4a5-b631-41f1-85eb-6161483b991b)
 
 6)Now ready to create new books using end point : http://localhost:8080/api/books/create  JWT token to be passed to headers, while creating
+
 ![Create Books](https://github.com/user-attachments/assets/05cbe2d6-e56c-4b96-946a-7cce02bbea18)
 
 7)We can checking books, by using get end point ( JWT token to be passed to headers)
@@ -63,6 +69,8 @@ a)Prometheus
 ![Promethues_integration](https://github.com/user-attachments/assets/2e38cd08-2d85-45ce-a813-9cebcd197530)
 
 b)Actuator
+
+
 ![image](https://github.com/user-attachments/assets/683dd0f5-731a-427c-898f-6122ce47eb3c)
 
 
